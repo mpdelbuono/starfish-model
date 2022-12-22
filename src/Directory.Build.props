@@ -1,0 +1,16 @@
+<Project>
+  <PropertyGroup>
+    <BaseOutputPath>$(SolutionDir)bin\$(MSBuildProjectName)\</BaseOutputPath>
+    <BaseIntermediateOutputPath>$(SolutionDir)obj\$(MSBuildProjectName)\</BaseIntermediateOutputPath>
+    <PackageReadmeFile>$(SolutionDir)README.md</PackageReadmeFile>
+
+    <PackageProjectUrl>https://github.com/mpdelbuono/starfish-model</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mpdelbuono/starfish-model.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Authors>Matthew P. Del Buono,Starfish Project Contributors</Authors>
+    <Company>The Starfish Project Contributors</Company>
+    <PackageTags>model;MOF;MDA;MDT;UML;SysML;AADL</PackageTags>
+    <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+</Project>

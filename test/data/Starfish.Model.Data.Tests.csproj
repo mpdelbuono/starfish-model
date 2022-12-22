@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Title>Starfish Data Model Library Test Suite</Title>
+    <Description>Test suite for the Starfish.Model.Data library.</Description>
+    <Copyright>Copyright (C) 2022 The Starfish Project Contributors. Licensed under the terms of the Mozilla Public License v2.0.</Copyright>
+    <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+    <AnalysisLevel>6.0-all</AnalysisLevel>
+    <WarningLevel>7</WarningLevel>
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+
+    <IsPackable>false</IsPackable>
+
+    <Company>The Starfish Project Contributors</Company>
+
+    <Authors>Matthew P. Del Buono,The Starfish Project Contributors</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.3.2" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.2.10" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.2.10" />
+    <PackageReference Include="coverlet.collector" Version="3.1.2" />
+  </ItemGroup>
+
+</Project>
